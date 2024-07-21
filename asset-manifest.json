@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/BaseApparelComingSoonPage/static/css/main.650d84c3.css",
+    "main.js": "/BaseApparelComingSoonPage/static/js/main.8f873d67.js",
+    "static/js/453.199fdcef.chunk.js": "/BaseApparelComingSoonPage/static/js/453.199fdcef.chunk.js",
+    "static/media/hero-desktop.jpg": "/BaseApparelComingSoonPage/static/media/hero-desktop.659bc9a7221d265fe28f.jpg",
+    "static/media/logo.svg": "/BaseApparelComingSoonPage/static/media/logo.bfe35add16fb8c010b0231ce711541c6.svg",
+    "index.html": "/BaseApparelComingSoonPage/index.html",
+    "static/media/icon-arrow.svg": "/BaseApparelComingSoonPage/static/media/icon-arrow.4b3d2d93cd838720beda936cd05c7382.svg",
+    "main.650d84c3.css.map": "/BaseApparelComingSoonPage/static/css/main.650d84c3.css.map",
+    "main.8f873d67.js.map": "/BaseApparelComingSoonPage/static/js/main.8f873d67.js.map",
+    "453.199fdcef.chunk.js.map": "/BaseApparelComingSoonPage/static/js/453.199fdcef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.650d84c3.css",
+    "static/js/main.8f873d67.js"
+  ]
+}
