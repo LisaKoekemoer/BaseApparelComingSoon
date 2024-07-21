@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+body {
+    font-family: "Josefin Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.main-component {
+    display: flex;
+    margin-left: 165px;
+    margin-top: 64.91px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cta {
+    width: 445px;
+    height: 404px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cta h1 {
+    font-size: 64px;
+    font-weight: 600;
+    color: #423A3A;
+    letter-spacing: 17.32px;
+    margin-top: 150px;
 }
 
-.App-link {
-  color: #61dafb;
+.cta h1 span {
+    color: #CE9898;
+    font-weight: 300;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cta p {
+    margin-top: 32px;
+    font-size: 16px;
+    color: #CE9898;
+}
+
+.heroImg img {
+    width: 610px;
+    height: 735px;
+    margin-top: -64.91px;
+    margin-left: 203px;
+}
+
+.cta form {
+    margin-top: 40px;
+}
+
+input::placeholder {
+    color: #CE9898;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.emailInput {
+    width: 415px;
+    height: 56px;
+    border-color: #CE9898;
+    border-style: solid;
+    border-radius: 30px;
+    padding-left: 30px;
+}
+
+.submit-btn {
+    position: relative;
+    top: -59px;
+    left: 349px;
+    width: 100px;
+    height: 56px;
+    background: rgb(248, 191, 191);
+    background: linear-gradient(180deg, rgba(248, 191, 191, 1) 0%, rgba(238, 139, 139, 1) 100%);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.error {
+    font-size: 13px;
+    color: #F96464;
+    margin-left: 20px;
+    margin-top: -30px;
 }
